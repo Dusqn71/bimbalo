@@ -1,0 +1,52 @@
+﻿Work item Type;Title1;Title2;Title3;State;Estimate
+Epic;Disaster Response & Coordination System;;;;
+User story;;Real-Time Disaster Monitoring;;;
+Tasks;;;Design dashboard for real-time sensor data;;3
+;;;Implement backend API for IoT sensor dana;;
+;;;Integrate seismic, flood, and air quality sensors;;2
+;;;Implement real-time data updates;;
+;;;Handle missing or delayed sensor data;;
+Test cases;;;View real-time sensor data on dashboard;;1
+;;;Sensor threshold exceeded scenario;;
+;;;No sensor data available scenario;;
+User story;;Emergency Alert Management;;;
+Tasks;;;Define alert thresholds;;3
+;;;Implement alert generation logic;;2
+;;;Send alerts to mobile and web apps;;
+;;;Prioritize alerts by severity;;1
+;;;Store alert history;;
+Test cases;;;Successful alert generation;;
+;;;High severity alert delivery;;
+;;;Duplicate alert prevention;;
+User story;;Responder Mobile Application;;;
+Tasks;;;Design mobile UI for responders;;2
+;;;Implement alert reception;;
+;;;Implement status update feature;;
+;;;Integrate GPS navigation;;
+;;;Enable offline mode;;
+Test case;;;Receive alert on mobile;;2
+;;;Update responder status;;
+;;;Offline sync after reconnect;;
+User story;;Incident Reporting;;;
+Tasks;;;Design incident report form;;1
+;;;Attach GPS location to report;;
+;;;Enable photo and video upload;;
+;;;Store reports in database;;
+;;;Sync offline incident reports;;
+Test case;;;Submit incident report;;3
+;;;Upload media files;;
+;;;Submit report without internet;;
+User story;;Secure Communication;;;
+Tasks;;;Implement in-app messaging;;3
+;;;Encrypt messages;;5
+;;;Integrate priority channels;;2
+Test case;;;Store message history;;
+;;;Successful message delivery;;
+;;;Encrypted communication verification;;
+User story;;Resource Deployment & Tracking;;;
+Task;;;Design resource management UI;;4
+;;;Assign resources to incidents;;
+;;;Track resource location;;3
+;;;Update resource status;;
+Test case;;;Assign resource successfully;;
+;;;Resource unavailable scenario;;
